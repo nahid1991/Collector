@@ -41,7 +41,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="Si5-xc-6mx" kind="show" identifier="moveToDetail" id="hgU-c4-j0i"/>
+                        <segue destination="Si5-xc-6mx" kind="show" id="hgU-c4-j0i"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7kG-Gp-iTO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -51,6 +51,7 @@
         <!--New Item-->
         <scene sceneID="kYp-ps-JFt">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jGS-l6-Fqg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="M1y-cj-blH" customClass="AddImageViewController" customModule="The_Collector" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Apf-pi-iun">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -110,7 +111,6 @@
                         <outlet property="titleTextField" destination="x3A-zZ-BaB" id="8Z6-Cy-PZC"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jGS-l6-Fqg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1713" y="142"/>
         </scene>
@@ -137,7 +137,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="RbV-pV-SiV"/>
                     <connections>
-                        <outlet property="imageView" destination="bGP-VD-6TO" id="I0a-3q-DCb"/>
+                        <outlet property="imageView" destination="bGP-VD-6TO" id="yuj-7A-0HA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FYn-Jw-MLp" userLabel="First Responder" sceneMemberID="firstResponder"/>
